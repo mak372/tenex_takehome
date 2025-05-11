@@ -1,6 +1,6 @@
-# Log Analysis Backend
+# Log Analysis 
 
-This is the backend service for a full-stack log analysis application. It allows users to securely upload Zscaler-style log files, authenticate, and analyze threats using a Flask-based API server. All parsed logs and analysis results are stored in a PostgreSQL database.
+A full-stack log analysis application. It allows users to securely upload Zscaler-style log files, authenticate, and analyze threats using a Flask-based API server. All parsed logs and analysis results are stored in a PostgreSQL database.
 
 ---
 
@@ -79,15 +79,15 @@ This is the backend service for a full-stack log analysis application. It allows
 <h2> Log Upload & Analysis</h2>
 
 <h3> POST /upload</h3>
-<p>Upload a <code>.csv</code> log file.</p>
+<p>Upload a <code>.txt</code> log file.</p>
 
 <strong>Form-Data:</strong>
-<pre><code>file: &lt;your_file.csv&gt;</code></pre>
+<pre><code>file: &lt;your_file.txt&gt;</code></pre>
 
 <strong>Response:</strong>
 <pre><code class="language-json">
 {
-  "filename": "your_file.csv"
+  "filename": "your_file.txt"
 }
 </code></pre>
 
@@ -99,7 +99,7 @@ This is the backend service for a full-stack log analysis application. It allows
 <strong>Payload:</strong>
 <pre><code class="language-json">
 {
-  "filename": "your_file.csv"
+  "filename": "your_file.txt"
 }
 </code></pre>
 
