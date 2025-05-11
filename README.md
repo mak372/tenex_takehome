@@ -1,4 +1,4 @@
-# 🛡️ Log Analysis Backend
+# Log Analysis Backend
 
 This is the backend service for a full-stack log analysis application. It allows users to securely upload Zscaler-style log files, authenticate, and analyze threats using a Flask-based API server. All parsed logs and analysis results are stored in a PostgreSQL database.
 
@@ -18,7 +18,7 @@ This is the backend service for a full-stack log analysis application. It allows
 - **Parsing of Zscaler logs**.
 - **Storage of parsed logs** into a PostgreSQL database.
 
-### 🧠 Threat Analysis
+### Threat Analysis
 
 - **Summarizes top threats.**
 - **Identifies and lists blocked events** with and without threats.
