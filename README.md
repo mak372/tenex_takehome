@@ -31,7 +31,7 @@ While developing this assignment, I made use of AI/large language models (LLMs) 
 I encountered a few issues while deploying the full-stack application (e.g., server errors, environment variable setup, cross-origin request issues). I used AI tools to understand th cause of these errors and solve those errors accordingly.
 
 **React Syntax Reference:**
-While working with React (particularly hooks like useEffect, useState, and useNavigate), I occasionally consulted AI tools to confirm proper syntax or usage patterns when I was unsure or needed quick clarification.
+While working with React (particularly hooks like useEffect, useState, and useNavigate), I occasionally used AI tools to confirm proper syntax or usage patterns when I was unsure or needed quick clarification.
 
 ---
 
