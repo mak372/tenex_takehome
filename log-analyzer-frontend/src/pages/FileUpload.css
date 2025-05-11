@@ -1,0 +1,147 @@
+.upload-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #f7f9fc;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.upload-container input[type="file"] {
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+.upload-container button {
+  margin: 10px 5px;
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-container button:hover {
+  background-color: #0056b3;
+}
+
+.upload-container p {
+  text-align: center;
+  color: green;
+  margin: 10px 0;
+}
+
+.upload-container pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.upload-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.upload-container li {
+  margin: 5px 0;
+  padding: 8px;
+  background: #fefefe;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.analysis-result {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f4f6f8;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.summary-cards {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.card {
+  background: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex: 1;
+  text-align: center;
+}
+
+.top-threats ul {
+  list-style: none;
+  padding: 0;
+}
+
+.top-threats li {
+  margin: 4px 0;
+  padding: 4px 8px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.threat-type {
+  font-weight: bold;
+  color: #b30000;
+}
+
+.threat-count {
+  margin-left: 8px;
+  color: #333;
+}
+
+.threat-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.threat-table th,
+.threat-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.threat-table th {
+  background-color: #e6e6e6;
+}
+
+.note {
+  margin-top: 12px;
+  background-color: #ffffcc;
+  padding: 10px;
+  border-radius: 4px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
