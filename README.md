@@ -1,6 +1,6 @@
 # Log Analysis 
 
-A full-stack log analysis application. It allows users to securely upload Zscaler-style log files, authenticate, and analyze threats using a Flask-based API server. All parsed logs and analysis results are stored in a PostgreSQL database.
+A full-stack log analysis application. It allows users to securely upload Zscaler-style log files analyze threats using a Flask-based API server. All parsed logs and analysis results are stored in a PostgreSQL database.
 
 ### 🔗 Live Link
 
