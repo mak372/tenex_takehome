@@ -2,6 +2,12 @@
 
 A full-stack log analysis application. It allows users to securely upload Zscaler-style log files, authenticate, and analyze threats using a Flask-based API server. All parsed logs and analysis results are stored in a PostgreSQL database.
 
+### 🔗 Live Link
+
+[Click here to view the deployed application](https://log-analyzer-frontend.onrender.com/)
+
+#### Since the application is deployed on free tier it may take some time to load initially. The initial login may take a few seconds due to backend cold start on the free-tier deployment
+
 ---
 
 ## Features
