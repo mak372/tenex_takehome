@@ -39,3 +39,30 @@ Register a new user.
   "username": "user1",
   "password": "pass123"
 }
+### `POST /login`
+Login a user.
+
+**Payload:**
+```json
+{
+  "username": "user1",
+  "password": "pass123"
+}
+**Response:**
+Status: 200 OK
+Sets a session cookie for authentication.
+Message: Login successful or error mes
+
+### `GET /check-auth`
+Check if the user is currently logged in.
+
+**Payload:**
+```json
+{
+  "loggedIn": true,
+  "user": "user1"
+}
+**Response:**
+loggedIn: true if the user is logged in, false otherwise.
+user: The username of the currently logged-in user.
+
