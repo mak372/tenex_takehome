@@ -123,7 +123,6 @@ While working with React (particularly hooks like useEffect, useState, and useNa
 {
   "summary": {
     "Blocked": 10,
-    "Allowed": 25
   },
   "blocked_threats": [
     {
@@ -139,7 +138,6 @@ While working with React (particularly hooks like useEffect, useState, and useNa
 <ul>
   <li><strong>summary:</strong> Overview of the analysis.</li>
   <li><strong>Blocked:</strong> The number of blocked threats.</li>
-  <li><strong>Allowed:</strong> The number of allowed events.</li>
   <li><strong>blocked_threats:</strong> A list of blocked threats, including threat name, action, and additional details.</li>
   <li><strong>note:</strong> A note regarding other blocked events that may not be threats.</li>
 </ul>
