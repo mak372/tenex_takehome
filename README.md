@@ -145,7 +145,7 @@ While working with React (particularly hooks like useEffect, useState, and useNa
 <hr>
 
 <h3> GET /analyze-db-logs</h3>
-<p>Fetch blocked threats from logs already stored in the database.</p>
+<p>Fetch blocked threats from logs already stored in the database. Button wont be enabled till the database is empty</p>
 
 <strong>Response:</strong>
 <pre><code class="language-json">
