@@ -30,15 +30,6 @@ A full-stack log analysis application. It allows users to securely upload Zscale
 - **Identifies and lists blocked events** with and without threats.
 - **Provides insight into historical blocked logs** stored in the database.
 
-### Use of AI/LLM
-While developing this assignment, I made use of AI/large language models (LLMs) to assist in specific areas:
-
-**Error Resolution During Deployment:**
-I encountered a few issues while deploying the full-stack application (e.g., server errors, environment variable setup, cross-origin request issues). I used AI tools to understand the cause of these errors and solve those errors accordingly.
-
-**React Syntax Reference:**
-While working with React (particularly hooks like useEffect, useState, and useNavigate), I occasionally used AI tools to confirm proper syntax or usage patterns when I was unsure or needed quick clarification.
-
 ---
 
 <h2> Authentication</h2>
